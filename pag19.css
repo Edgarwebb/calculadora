@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/superficie-metal-rayado-estilo-grunge-oscuro_1048-12951.jpg);  
+}
+
+#CntPrincipal {
+    height: 450px;
+    width: 300px;
+    border: 5px solid rgb(250, 243, 243);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+
+#CntPrincipal form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+#CntPrincipal input[type=textfield] {
+    height: 25%;
+    width: 80%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#CntPrincipal input[type=button], input[type=reset] {
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+    
+    
+}
+
+#CntPrincipal .orange {
+    background-color: rgb(253, 149, 3) !important;
+    color: white !important;
+    
+    
+}
+
+#CntPrincipal .gray {
+    background-color: rgb(51, 51, 51) !important;
+    color: white !important;
+}
